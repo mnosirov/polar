@@ -1,0 +1,789 @@
+        body {
+            font-family: "Fredoka One", cursive;
+        }
+        /* Header  */
+        
+        .header {
+            background-color: #f8edf0;
+            max-width: 1600px;
+            height: 862px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
+        .container {
+            max-width: 1600px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0;
+            padding: 0;
+            padding-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .site-logo-link {
+            display: block;
+        }
+        
+        .site-logo-img {
+            display: block;
+            width: 79px;
+            height: 79px;
+            left: 245px;
+            top: 10px;
+            padding-left: 245px;
+        }
+        
+        .site-nav-list {
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .site-nav-item {
+            padding-left: 40px;
+        }
+        
+        .site-nav-link {
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 18px;
+            color: #1f1534;
+            opacity: 0.5;
+        }
+        
+        .site-nav-link:hover {
+            color: #2a1f41;
+            transition: color 0.3s ease;
+            background-color: transparent;
+        }
+        
+        .site-nav-link--active {
+            font-weight: bold;
+            opacity: 1;
+            color: #d23166;
+        }
+        
+        .site-nav-button {
+            width: 165px;
+            height: 49px;
+            left: 1205px;
+            top: 25px;
+            margin-right: 230px;
+            border-radius: 5px;
+            color: #ffffff;
+            background: #d23166;
+            cursor: pointer;
+        }
+        
+        .site-nav-span {
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 22px;
+        }
+        
+        .site-nav-button:hover {
+            color: #d23166;
+            transition: color 0.3s ease;
+            background-color: transparent;
+        }
+        /* Hero */
+        
+        .div-hero {
+            color: #0f0101;
+            margin-bottom: 100px;
+            margin-top: 52px;
+            width: 1600px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .hero-content-img {
+            width: 693px;
+            height: 598px;
+        }
+        
+        .hero-site-content {
+            margin-left: 254px;
+        }
+        
+        .hero-site-paragraph {
+            margin: 0;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.1em;
+        }
+        
+        .hero-site-heading {
+            margin: 0;
+            margin-top: 6px;
+            margin-bottom: 35px;
+            font-family: Fredoka One;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 57.33px;
+            line-height: 120.5%;
+            opacity: 0.9;
+        }
+        
+        .hero-site-heading-span {
+            color: #d23166;
+        }
+        
+        .hero-site-text {
+            margin: 0;
+            width: 523px;
+            height: 78px;
+            left: 254px;
+            top: 472px;
+            font-family: Hind Madurai;
+            font-size: 18px;
+            line-height: 27px;
+            opacity: 0.6;
+            margin-bottom: 50px;
+        }
+        
+        .hero-site-link {
+            text-decoration: none;
+            list-style-type: none;
+            width: 165px;
+            height: 49px;
+            background: #d23166;
+            border-radius: 5px;
+            font-family: Hind Madurai;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 22px;
+            color: #fafafa;
+            padding: 0;
+            text-align: center;
+            padding-top: 16px;
+            display: inline-block;
+        }
+        
+        .hero-site-content {
+            width: 665px;
+            height: 370px;
+        }
+        
+        .img-milk {
+            width: 851px;
+            height: 548px;
+            background-image: #f2ceda;
+        }
+        /* site list  */
+        
+        .site-list {
+            width: 1117px;
+            height: 200px;
+            color: #000000;
+            list-style-type: none;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .site-items {
+            margin-top: 40px;
+            margin-left: 39px;
+            width: 250px;
+            height: 200px;
+            left: 252px;
+            top: 962px;
+            background: #ffffff;
+            box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 20px;
+            border: .5px solid #f0f8ff;
+        }
+        
+        .site-item {
+            margin-top: 40px;
+            margin-left: 39px;
+            width: 250px;
+            height: 200px;
+            left: 252px;
+            top: 962px;
+            background: #ffffff;
+            box-shadow: 0.5px 0.5px 0.5px rgba(19, 18, 18, 0.1);
+            text-align: center;
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 20px;
+            border: .5px solid #f0f8ff;
+        }
+        
+        .site-item-dostavka-img {
+            margin-top: 31px;
+            margin-bottom: 17px;
+        }
+        
+        .site-item-heading {
+            font-family: Hind Madurai;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 28px;
+            margin: 0;
+        }
+        
+        .site-item-text {
+            margin: 0;
+            font-family: Hind Madurai;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 19px;
+            text-align: center;
+            opacity: 0.6;
+            margin-top: 9px;
+        }
+        
+        .hero-button {
+            width: 165px;
+            height: 49px;
+            left: 255px;
+            top: 600px;
+            background: #d23166;
+            border-radius: 5px
+        }
+        /* section  */
+        
+        .div-sugar {
+            width: 1600px;
+            height: 544px;
+            display: flex;
+            margin-top: 100px;
+            background: #f8edf0;
+        }
+        
+        .div-sugar-content {
+            margin-top: 141px;
+            margin-left: 253px;
+            width: 442px;
+            height: 257px;
+            color: #150101;
+        }
+        
+        .sugar-heading {
+            margin-bottom: 16px;
+            font-family: Hind Madurai;
+            font-weight: 600;
+            font-size: 44.2px;
+            line-height: 49px;
+        }
+        
+        .sugar-text {
+            font-family: Roboto;
+            font-size: 16px;
+            line-height: 24px;
+            opacity: 0.6;
+            margin-bottom: 35px;
+        }
+        
+        .sugar-button {
+            width: 165px;
+            height: 49.13px;
+            left: 253px;
+            top: 1611.16px;
+            background: #d64374;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .sugar-span {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #fafafa;
+        }
+        
+        .sugar-img {
+            margin-left: 74px;
+        }
+        /* next-list  */
+        
+        .div-product {
+            color: #150101;
+            margin: 0;
+            padding: 0;
+            padding-top: 10px;
+            align-items: center;
+            width: 1600px;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: space-between;
+        }
+        
+        .product-heading {
+            font-family: Hind Madurai;
+            font-weight: 600;
+            font-size: 44.2px;
+            line-height: 61px;
+            text-align: center;
+        }
+        
+        .product-list {
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            margin-left: 362px;
+            margin-bottom: 50px;
+        }
+        
+        .product-item {
+            margin-left: 39px;
+        }
+        
+        .product-link {
+            font-family: Roboto;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            color: #000000;
+            opacity: 0.6;
+            text-decoration: none;
+        }
+        
+        .product-link--active {
+            font-weight: bold;
+            opacity: 1;
+        }
+        
+        .menyu-list {
+            width: 1600px;
+            margin-left: 238px;
+            color: #000000;
+        }
+        
+        .menyu-item {
+            display: flex;
+            margin-bottom: 30px;
+        }
+        
+        .bread-img {
+            width: 580px;
+            height: 415px;
+            margin-right: 85px;
+        }
+        
+        .menyu-item-content {
+            width: 454px;
+            height: 235px;
+        }
+        
+        .menyu-item-heading {
+            font-family: Hind Madurai;
+            font-size: 26px;
+            line-height: 36px;
+            margin-bottom: 11px;
+        }
+        
+        .menyu-item-text {
+            font-family: Roboto;
+            font-size: 16px;
+            line-height: 24px;
+            opacity: 0.7;
+        }
+        
+        .menyu-item-paragraph-text {
+            font-family: Hind Madurai;
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 36px;
+            margin-top: 16px;
+        }
+        
+        .menyu-item-paragraph-span {
+            text-decoration: line-through;
+            font-family: Hind Madurai;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 28px;
+            margin-top: 16px;
+        }
+        
+        .menyu-item-button {
+            width: 165px;
+            height: 49px;
+            left: 916px;
+            top: 2385px;
+            background: #d64374;
+            border-radius: 5px;
+            font-family: Roboto;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            color: #fafafa;
+            cursor: pointer;
+        }
+        
+        .menyu-item-content-nav {
+            display: flex;
+            width: 260px;
+            margin-top: 40px;
+        }
+        
+        .menyu-item-img-girl {
+            border-radius: 50px;
+            margin-right: 21px;
+        }
+        
+        .menyu-item-text {
+            font-family: Roboto;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            color: #000000;
+            margin: 0;
+            margin-bottom: 5px;
+        }
+        
+        .menyu-item-paragraph {
+            font-family: Roboto;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            color: #000000;
+            opacity: 0.7;
+            margin: 0;
+        }
+        
+        .menyu-item-blockquote {
+            margin-top: 46px;
+            margin-bottom: 56px;
+            font-family: Roboto;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+            opacity: 0.7;
+        }
+        
+        .menyu-item-top-img {
+            display: flex;
+            width: 140px;
+            height: 58px;
+            margin-top: 2px;
+        }
+        
+        .menyu-item-brackets-img {
+            width: 8px;
+            height: 14px;
+            margin-top: 25px;
+            margin-right: 5px;
+        }
+        
+        .menyu-item-side-img {
+            width: 37px;
+            height: 37px;
+            border-radius: 50px;
+            margin-right: 5px;
+            margin-top: 15px;
+        }
+        
+        .menyu-item-middle-img {
+            width: 57px;
+            height: 57px;
+            border-radius: 50px;
+            margin-right: 5px;
+        }
+        /* RASBERRY LIST  */
+        
+        .div-marketing {
+            width: 1600px;
+            height: 621px;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            background: #f8edf0;
+        }
+        
+        .marketing-telephone-img {
+            width: 269px;
+            height: 552px;
+            margin-left: 240px;
+            margin-right: 180px;
+            margin-top: 30px;
+        }
+        
+        .div-marketing-content {
+            width: 621px;
+        }
+        
+        .marketing-content-heading {
+            font-family: Roboto;
+            font-weight: 500;
+            font-size: 44.2px;
+            line-height: 52px;
+            color: #000000;
+            margin-top: 85px;
+            margin-bottom: 20px;
+        }
+        
+        .marketing-content-taxt {
+            font-family: Roboto;
+            font-size: 18px;
+            line-height: 21px;
+            letter-spacing: 0.01em;
+            color: #0f0101;
+            opacity: 0.7;
+            margin-bottom: 29px;
+        }
+        
+        .marketing-content-list {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        
+        .marketing-content-item {
+            font-family: Roboto;
+            font-size: 22px;
+            line-height: 26px;
+            color: #000000;
+            margin-bottom: 15px;
+        }
+        
+        .marketing-content-item-img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        
+        .marketing-content-google-play {
+            width: 180px;
+            height: 57px;
+            margin-top: 61px;
+            margin-right: 17px;
+        }
+        
+        .marketing-content-appstore {
+            width: 180px;
+            height: 57px;
+            margin-top: 61px;
+        }
+        /* <!-- CONTACT LIST --> */
+        
+        .div-survey {
+            width: 1600px;
+            margin: 0;
+            padding: 0;
+            margin-top: 111px;
+            margin-bottom: 110px;
+        }
+        
+        .survey-heading {
+            font-size: 44px;
+            width: 522px;
+            height: 123px;
+            margin-left: auto;
+            margin-right: auto;
+            left: 524px;
+            top: 4903px;
+            line-height: 52px;
+            text-align: center;
+            color: #000000;
+        }
+        
+        .imput-telephone-number {
+            width: 303px;
+            height: 74px;
+            left: 482px;
+            top: 5062px;
+            margin-left: 482px;
+            margin-right: 30px;
+            margin-bottom: 37px;
+            background: #ffffff;
+            border: 1px solid #ffa3a3;
+            box-sizing: border-box;
+            border-radius: 5px;
+            font-family: Roboto;
+            font-size: 14px;
+            line-height: 16px;
+            color: #0f0000;
+            opacity: 0.6;
+        }
+        
+        .imput-name {
+            width: 637px;
+            height: 74px;
+            left: 482px;
+            top: 5173px;
+            margin-left: 482px;
+            background: #ffffff;
+            border: 1px solid #ffa3a3;
+            box-sizing: border-box;
+            border-radius: 5px;
+            font-family: Roboto;
+            font-size: 14px;
+            line-height: 16px;
+            color: #0f0000;
+            opacity: 0.6;
+        }
+        
+        .survey-button {
+            width: 134px;
+            height: 74px;
+            left: 985px;
+            top: 5173px;
+            background: #d64374;
+            border-radius: 5px;
+            font-family: Roboto;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+            align-items: center;
+            color: #ffffff;
+            margin: 0;
+            cursor: pointer;
+        }
+        
+        .survey-table {
+            width: 303px;
+            height: 74px;
+            left: 815px;
+            top: 5062px;
+            background: #FFFFFF;
+            border: 1px solid #ffa3a3;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+        
+        .survey-form {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .container {
+            margin-right: auto;
+            margin-left: auto;
+            width: 1600px;
+        }
+        /* FOTTER  */
+        
+        .footer {
+            width: 1600px;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 381px;
+            left: 0px;
+            top: 5357px;
+            background: #0a0808;
+            color: #ffffff;
+        }
+        
+        .footer-location {
+            width: 207px;
+            height: 197px;
+            margin-left: 252px;
+            margin-right: 37px;
+            margin-top: 70px;
+        }
+        
+        .footer-location-logo {
+            width: 79px;
+            height: 79px;
+            margin-bottom: 9px;
+        }
+        
+        .footer-location-text {
+            font-family: Roboto;
+            font-size: 12px;
+            line-height: 17px;
+            letter-spacing: 0.01em;
+            opacity: 0.7;
+            margin-bottom: 25px;
+        }
+        
+        .footer-location-link {
+            font-family: Roboto;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            text-decoration: none;
+            margin-bottom: 8px;
+            color: #ffffff;
+        }
+        
+        .footer-location-application {
+            width: 15px;
+            height: 15px;
+        }
+        
+        .footer-list {
+            list-style-type: none;
+            margin-top: 143px;
+        }
+        
+        .footer-list-item {
+            font-family: Roboto;
+            font-size: 12px;
+            line-height: 14px;
+            margin-bottom: 10px;
+            margin-right: 132px;
+        }
+        
+        .footer-email {
+            width: 398px;
+            height: 125px;
+            margin-top: 136px;
+        }
+        
+        .footer-email-text {
+            font-family: Roboto;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+        }
+        
+        .footer-email-form {
+            display: flex;
+            margin-bottom: 15px;
+        }
+        
+        .footer-email-div {
+            height: 55px;
+            left: 955px;
+            top: 5525px;
+            background: #0a0808;
+            border: 1px solid #ffa3a3;
+            box-sizing: border-box;
+            border-radius: 5px;
+            font-family: Roboto;
+            font-size: 14px;
+            line-height: 16px;
+            color: #0f0000;
+            opacity: 0.6;
+        }
+        
+        .fotter-email-name {
+            background: #0a0808;
+            opacity: 2;
+        }
+        
+        .footer-email-button {
+            width: 125px;
+            height: 55px;
+            left: 1218px;
+            top: 5525px;
+            background: #d23166;
+            border-radius: 5px;
+            color: #ffffff;
+            cursor: pointer;
+        }
